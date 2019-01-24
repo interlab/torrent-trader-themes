@@ -1,0 +1,71 @@
+/*DEFINE THE SHOUTBOX CSS */
+
+A:link			{
+	text-decoration: none;
+	color: #333333;
+}
+A:visited		{
+	text-decoration: none;
+	color: #333333;
+}
+A:active		{
+	text-decoration: none;
+	color: #333333;
+}
+A:hover			{
+	text-decoration: underline;
+	color: #000000;
+}
+
+BODY {
+font-family: verdana;
+color: black;
+float: middle;
+background-color: White;
+}
+
+DIV.contain {
+border: 0;
+height: 150;
+width: 100%;
+overflow: auto;
+align: middle;
+}
+
+DIV.history {
+border: 0;
+height: 100%;
+width: 100%;
+align: middle;
+}
+
+TR.messageboxback {
+background-color: White;
+}
+
+TR.noalt {
+background-color: White;
+}
+
+TR.alt {
+background-color: AliceBlue;
+}
+
+INPUT.msgbox {
+width: 100%; 
+font-size: 12px; 
+background-color: AliceBlue;
+border: 1px solid black;
+}
+
+INPUT.shoutbtn { 
+font-size: 12px; 
+background-color: AliceBlue;
+border: 1px solid black; 
+font-weight: bold;
+}
+
+.error {
+color: red;
+font-size: 13px;
+}

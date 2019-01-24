@@ -1,0 +1,24 @@
+import mx.core.UIObject;
+import mx.controls.SimpleButton;
+import mx.core.UIComponent;
+
+[Event("click")] 
+[TagName("Button")] 
+[IconFile("Button.png")] 
+intrinsic class mx.controls.Button extends mx.controls.SimpleButton
+{
+   public function Button();
+   public var __get__icon:Function;
+   public var __get__label:Function;
+   public var __get__labelPlacement:Function;
+   public var __label:String;
+   public var __labelPlacement:String;
+   public var _color;
+   public function _getIcon(Void):String;
+   public var _iconLinkageName:String;
+   [Bindable] [ChangeEvent("click")] public var _inherited_selected:Boolean;
+   public function _setIcon(linkage):Void;
+   public var borderW:Number;
+   public var btnOffset:Number;
+   public function calcSize(tag:Number, ref:Object):Void;
+   public var centerContent:B

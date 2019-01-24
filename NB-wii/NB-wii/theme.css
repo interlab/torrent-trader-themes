@@ -1,0 +1,216 @@
+/* Link colors */
+A:link			{
+	text-decoration: none;
+	color: #333333;
+}
+A:visited		{
+	text-decoration: none;
+	color: #333333;
+}
+A:active		{
+	text-decoration: none;
+	color: #333333;
+}
+A:hover			{
+	text-decoration: underline;
+	color: #000000;
+}
+.subnav A:link			{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.subnav A:visited		{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.subnav A:active		{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.subnav A:hover			{
+	text-decoration: underline;
+	color: #CCCCCC;
+}
+/* Define BODY style */
+BODY{
+	margin: 0px;
+	font-style:normal; font-variant:normal; font-weight:normal; font-size:8pt; font-family:Verdana 
+}	
+.subnav{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.NB-header {
+	background-image: url(images/NB-logo.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Define Torrent Table Outer */
+.ttable_headouter {
+    border-collapse: collapse
+    border: #646262;
+	border:1px solid #646262;
+}
+/* Define Torrent Table Inner */
+.ttable_headinner {
+	border-collapse:collapse;
+	border:1px solid #D6D9DB;
+}
+
+/* Define Torrent Table Header */
+.ttable_head {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+color: #FFFFFF;
+font-size: 7pt;
+background: #808080;
+text-align: center;
+}
+
+/* Define Torrent Table Columns (colx=misc) */
+.ttable_col1 {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #F7F7F7;
+}
+
+.ttable_col2 {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #ECECEC;
+}
+.ttable_colx {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #ECECEC;
+}
+
+/* Define Other Tables */
+.table_table {
+/*width:100%;*/
+border: #000000;
+border-style: border-style;
+border-width: 1px
+border-collapse:collapse;
+
+}
+.table_head {
+font-family: 'Verdana';
+border:1px solid #000000;
+color: #FFFFFF;
+font-size: 7pt;
+background: #808080;
+}
+.table_col1 {
+font-family: 'Verdana';
+border:1px solid #CFCFCF;
+font-size: 8pt;
+background: #F7F7F7;
+}
+.table_col2 {
+font-family: 'Verdana';
+border:1px solid #CFCFCF;
+font-size: 8pt;
+background: #ECECEC;
+}
+
+
+/* OLD CSS FOLLOWS... */
+td {
+font-family: 'Verdana';
+font-size: 8pt; 
+}
+
+.alt1 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #F7F7F7;
+}
+
+.alt2 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #ECECEC;
+}
+
+.alt3 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #808080;
+}
+
+.alt4 {
+border-right-style: none; 
+border-right-width: medium; 
+border-bottom-style: none; 
+border-bottom-width: medium
+}
+
+.alt5 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #ECECEC;
+}
+
+.main {
+background: #CBCAC5;
+}
+
+/* BLOCK STYLE */
+.NB-bhead{
+	background-image: url(images/NB_btf.jpg);
+	background-repeat: repeat-x;
+}
+.NB-btm{
+	background-repeat: no-repeat;
+	font-size: 11px;
+	color: #666666;
+	font-family: verdana, tahoma, arial, sans-serif;
+	background-image: url(images/NB-wii_18.gif);
+	vertical-align: text-top;
+	padding-top: 8px;
+	text-align: center;
+	font-weight: bold;
+	background-position: center bottom;
+}
+.NB-bmm{
+	width: 100%;
+	padding: 4px 5px 5px 4px;
+	font-size: 10px;
+	color: #333333;
+	font-family: verdana, tahoma, arial, sans-serif;
+	vertical-align:top;
+}
+
+/* FRAME STYLE */
+.NB-fhead{
+	background-image: url(images/NB_ftf.jpg);
+	background-repeat: repeat-x;
+}
+.NB-ftm{
+	background-repeat: no-repeat;
+	font-size: 11px;
+	color: #666666;
+	font-family: verdana, tahoma, arial, sans-serif;
+	background-image: url(images/NB-wii_17.gif);
+	vertical-align: text-top;
+	padding-top: 8px;
+	text-align: center;
+	font-weight: bold;
+	background-position: center bottom;
+}
+.NB-fmm{
+	width: 100%;
+	font-size: 10px;
+	color: #333333;
+	font-family: verdana, tahoma, arial, sans-serif;
+	vertical-align:top;
+	padding-top: 4px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
