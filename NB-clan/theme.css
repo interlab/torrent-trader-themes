@@ -1,0 +1,290 @@
+/* Link colors */
+A:link			{ text-decoration: none; color: #000000;}
+A:visited		{ text-decoration: none; color: #000000;}
+A:active		{ text-decoration: none; color: #9a9494;}
+A:hover			{ text-decoration: overline underline; color: #000000}
+
+a.menu_blink { text-decoration: none; font-weight: bold }
+a:link.menu_blink { text-decoration: none; font-weight: bold }
+a:visited.menu_blink { text-decoration: none; font-weight: bold }
+a:active.menu_blink { text-decoration: none; font-weight: bold }
+a:hover.menu_blink { text-decoration: none; color: #FFFFFF; font-weight: bold }
+
+/* Define BODY style */
+body {
+	background-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+/* Define Torrent Table Outer */
+.ttable_headouter {
+    border-collapse: collapse
+    border: #646262;
+	border:1px solid #646262;
+}
+/* Define Torrent Table Inner */
+.ttable_headinner {
+	border-collapse:collapse;
+	border:1px solid #D6D9DB;
+}
+
+/* Define Torrent Table Header */
+.ttable_head {
+background-position: 0% 0%; font-family: 'Verdana';
+border:1px solid #D6D9DB;
+color: #ffffff;
+font-size: 7pt;
+text-align: center; background-image:none; background-repeat:repeat; background-attachment:scroll
+}
+
+/* Define Torrent Table Columns (colx=misc) */
+.ttable_col1 {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #F7F7F7;
+}
+.ttable_col2 {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #ECECEC;
+}
+.ttable_colx {
+font-family: 'Verdana';
+border:1px solid #D6D9DB;
+font-size: 8pt;
+background: #ECECEC;
+}
+
+/* Define Other Tables */
+.table_table {
+/*width:100%;*/
+border-left:border-collapse border-style #000000; border-right:border-collapse border-style #000000; border-top:1px border-style #000000; border-bottom:collapse border-style #000000; 
+
+}
+.table_head {
+background-position: 0% 0%; font-family: 'Verdana';
+border:1px solid #000000;
+color: #ffffff;
+font-size: 7pt;
+background-image:none; background-repeat:repeat; background-attachment:scroll
+}
+.table_col1 {
+font-family: 'Verdana';
+border:1px solid #CFCFCF;
+font-size: 8pt;
+background: #F7F7F7;
+}
+.table_col2 {
+font-family: 'Verdana';
+border:1px solid #CFCFCF;
+font-size: 8pt;
+background: #ECECEC;
+}
+
+
+/* OLD CSS FOLLOWS... */
+td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+.alt1 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #F7F7F7;
+}
+
+.alt2 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #ECECEC;
+}
+
+.alt3 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #808080;
+}
+
+.alt4 {
+border-right-style: none; 
+border-right-width: medium; 
+border-bottom-style: none; 
+border-bottom-width: medium
+}
+
+.alt5 {
+font-family: 'Verdana';
+font-size: 8pt;
+background: #ECECEC;
+}
+
+.main {
+background-position: 0% 0%; background-image:none; background-repeat:repeat; background-attachment:scroll
+}
+
+form {
+	 
+}
+
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: normal;
+	color: #006699;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.subtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	color: #005588;
+	font-weight: bold;
+}
+
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: #669900;
+ color: #FFFF33;
+}
+
+.nav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #CC99FF;
+}
+
+.navLink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+
+.sidebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #FFFFCC;
+ color: #003333;
+}
+
+.sidebarHeader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #003300;
+	background-color: #FFFF66;
+}
+
+.sidebarFooter {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFF99;
+ font-style: italic;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #CCFF99;
+}
+
+.legal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+.copylegal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #000000;
+}
+
+a.alegal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #003366;
+	text-decoration: none;
+}
+a.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #557777;
+	text-decoration: none;
+}
+
+.promo {
+	font-family: "Times New Roman", Times, serif;
+	color: #000033;
+}
+
+.titlebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+
+.dingbat {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+ color: #660000; font-weight: bolder; font-size: medium;
+ }
+
+input.big {
+	width: 100px;
+}
+
+input.small {
+	width: 50px;
+}
+/* ************** Define BEGIN_FRAME() Style  ************** */
+.frame_top_left {
+background-image: url("images/frame_top_left.gif"); width: 15; height: 33;
+}
+
+.frame_top {
+background-image: url("images/frame_top.gif");  width: 100%; height: 33px;
+}
+
+.frame_top_right {
+background: url("images/frame_top_right.gif"); width: 15; height: 33;
+}
+
+.frame_middle_left {
+background-image: url("images/frame_middle_left.jpg"); width: 13; height: 18;
+}
+
+.frame_middle {
+background-image: url("images/frame_middle.jpg"); width: 100%; height: 100%; 
+}
+
+.frame_middle_right {
+background-image: url("images/frame_middle_right.jpg"); width: 13; height: 18;
+}
+
+.frame_bottom_left {
+background-image: url("images/frame_bottom_left.gif"); width: 13px; height: 22px;
+}
+
+.frame_bottom {
+background-image: url("images/frame_bottom.jpg");  width: 100%;  height: 10px;
+}
+
+.frame_bottom_right {
+background-image: url("images/frame_bottom_right.gif"); width: 13px; height: 22px;
+}
+
+space {
+background-image: url("images/bar08.jpg");width: 8px; height: 8px;
+}

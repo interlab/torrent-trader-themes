@@ -1,0 +1,59 @@
+/* Link colors */
+A:link			{ text-decoration: none; color: #193057;}
+A:visited		{ text-decoration: none; color: #193057;}
+A:active		{ text-decoration: none; color: #9a9494;}
+A:hover			{ text-decoration: overline underline; color: #193057}
+
+BODY {
+font-family: verdana;
+color: white;
+float: middle;
+background-image: url("images/frame_middle.png"); width: 100%;
+}
+
+DIV.contain {
+border: 0;
+height: 150;
+width: 100%;
+overflow: auto;
+align: middle;
+}
+
+DIV.history {
+border: 0;
+height: 100%;
+width: 100%;
+align: middle;
+}
+
+TR.messageboxback {
+background-image: url("images/frame_middle.png"); width: 100%;
+}
+
+TR.noalt {
+background-color: #6b6b6b;
+}
+
+TR.alt {
+background-color: #949494;
+}
+
+INPUT.msgbox {
+width: 100%; 
+font-size: 12px; 
+background-color: #c9c8c8;
+border: 1px solid white;
+}
+
+INPUT.shoutbtn {
+width: 100%; 
+font-size: 12px; 
+background-color: #c9c8c8;
+border: 1px solid white; 
+font-weight: bold;
+}
+
+.error {
+color: red;
+font-size: 13px;
+}
